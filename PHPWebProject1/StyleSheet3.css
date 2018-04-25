@@ -1,0 +1,427 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 2100px;
+    margin: 0 auto;
+    background-color: #3cb7be;
+    height: 1000px;
+    min-width: 1960px;
+}
+
+
+body {
+    background-color: #bfe8fc;
+    color: white;
+}
+
+
+
+nav {
+    background-color: #81cbd4;
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px solid #73b8c0;
+}
+nav img{
+    margin-left:400px;
+    margin-top:20px;
+}
+
+nav #menu{
+    margin-top:3px;
+    float:right;
+   margin-right:400px;
+}
+
+a.szukaj {
+    background-color: #ffb400;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+nav .szukaj {
+    margin-top: -3px;
+}
+nav li {
+    float: right;
+    list-style-type: none;
+}
+
+
+
+a {
+    background-color: #80cad5;
+    border: none;
+    color: white;
+    padding: 22px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    a:hover {
+        background-color: #60b6d2;
+    }
+
+
+
+
+
+
+
+p {
+
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+
+
+
+#przejazd {
+   
+  
+    background-color: #dedede;
+    height:543px;
+
+}
+
+
+input[type=time] {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #dedede;
+    color: #4C4C4C;
+    border: 1px solid #4C4C4C;
+    border-radius: 4px;
+    padding: 7px 120px;
+}
+
+
+
+input[type=text] {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: #dedede;
+    color: #4C4C4C;
+    margin-bottom: 10px;
+    border: 1px solid #4C4C4C;
+    border-radius: 2px;
+    padding: 10px 70px;
+}
+
+
+
+#przejazd input[type=date] {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dedede;
+    color: #4C4C4C;
+    padding: 8px 85px;
+    border: 1px solid #4C4C4C;
+    border-radius: 4px;
+}
+
+#przejazd p {
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4C4C4C;
+    font-size: 25px;
+}
+
+   #tekst{
+       border-bottom:5px solid #ccc;
+       text-align:center;
+       padding:20px 20px;
+       border-bottom:3px double #dedede;
+      
+      
+
+    }
+  
+
+
+#przejazd button {
+    margin-top:60px;
+    border: 1px solid rgb(255, 255, 255);
+   margin-left:35%;
+    background-color: #90eb55;
+    padding: 12px 60px;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+   
+}
+
+    #przejazd button:hover {
+        background-color: #ffb400;
+    }
+
+
+
+
+footer {
+    background-color: #2cb774;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: #a9a7a7;
+    position: absolute;
+    
+}
+
+
+#tytul3{
+    font-size:25px;
+}
+
+
+td {
+    background-color: #dedede;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+   
+}
+
+th {
+    padding: 12px 43px;
+    background-color: #ccc;
+    color: #4C4C4C;
+}
+
+
+
+
+#podmenu {
+    width: 100%;
+    background-color: #77c0c9;
+    height: 50px;
+   
+}
+
+
+#templatka {
+    border-radius: 5px;
+    border: 5px solid #d3d3d3;
+    width: 1177px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#zdjecie {
+    width: 20%;
+    height: 45%;
+    background-color: #dedede;
+   
+}
+#info {
+    width: 20%;
+    height: 55%;
+    background-color: #dedede;
+   
+}
+#addPhoto {
+    margin-top:30px;
+    background-color: #0fc7e3;
+    padding: 10px 20px;
+    float: right;
+    border: none;
+    color: white;
+    border-radius:5px;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#informacje {
+    background-color: #dedede;
+    width: 938px;
+    height: 100%;
+    margin-top: -600px;
+    margin-left: 20%;
+    border-left: 4px solid #d3d3d3;
+  
+}
+#image {
+    margin-top:50px;
+    width: 100%;
+}
+
+
+
+#paragraf p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #373765;
+    margin-left:500px;
+    margin-top:50px;
+
+}
+#informacje a {
+    background-color: #e6e6e6;
+
+    color: #9d9797;
+    padding: 0px 20px 20px 20px;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+    #informacje a:hover {
+        background-color: #e3b40f;
+    }
+#zdjecie img{
+    width:100%;
+    height:100%;
+    
+}
+#tytul {
+    background-color: #dedede;
+    border-bottom: 4px solid #d3d3d3;
+   
+}
+    #tytul p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        color: #a9a7a7;
+        text-align: center;
+    }
+
+
+#tekst {
+    border-bottom: 4px solid #d3d3d3;
+}
+
+
+.tab {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: #4C4C4C;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #dedede;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        color: #4C4C4C;
+        font-size: 17px;
+        font-size: 20px;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+         
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+            border: 4px solid #d3d3d3;
+            border-bottom: none;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+   
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+#profileInfo #saveChangesBtn {
+    border: 1px solid rgb(255, 255, 255);
+    margin-top:40px;
+    margin-left:40%;
+    background-color: #90eb55;
+    padding: 12px 60px;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom:40px;
+   
+}
+
+
+#profileInfo #saveChangesBtn:hover {
+    background-color: #ffb400;
+}
+
+#profileInfo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: #373765;
+    font-size: 25px;
+}
+
+
+#profileInfo #tytul3 {
+
+    margin-top: 25px;
+    margin-left: 40%;
+}
+
+
+#profileInfo input[type=text] {
+
+    margin-top:30px;
+
+}
+
+#inputy{
+    border-top:5px solid #ccc;
+    margin-top:40px;
+   
+}
+
+
+
+
+
+
+
+
+
+

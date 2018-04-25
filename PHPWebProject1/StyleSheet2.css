@@ -1,0 +1,188 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 2100px;
+    margin: 0 auto;
+    background-image: url("back8.jpg");
+    height: 1000px;
+    min-width: 1960px;
+}
+
+
+body {
+    background-color: #bfe8fc;
+    color: white;
+}
+
+
+nav img {
+    margin-top: 40px;
+    margin-left: 500px;
+}
+nav #menu {
+    margin-top: 21px;
+    float: right;
+    margin-right: 520px;
+}
+
+nav {
+    float: right;
+    width: 100%;
+    background-color: #81cbd4;
+    height: 110px;
+    border-bottom: 3px solid #73b8c0;
+}
+
+a {
+    background-color: #80cad5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    a:hover {
+        background-color: #60b6d2;
+    }
+
+li {
+    float: right;
+    list-style: none;
+}
+
+
+
+#forma form {
+    float: left;
+    padding: 5px;
+    color: white;
+}
+
+#forma {
+    margin-top: 40px;
+    margin-left: 320px;
+    float: left;
+}
+
+p {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text] {
+    background-color: #80cad5;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=date] {
+    background-color: #80cad5;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+#forma button {
+    margin-top: 38px;
+    background-color: #ffb400;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+    #forma button:hover {
+        background-color: #60b6d2;
+    }
+
+#formularz {
+    background-color: #77c0c9;
+    border-radius: 7px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 320px;
+    padding: 50px;
+
+}
+
+
+    #formularz input[type=text] {
+        background-color: #77c0c9;
+        color: white;
+        padding: 12px 80px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    #formularz input[type=password] {
+        background-color: #77c0c9;
+        color: white;
+        padding: 12px 80px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    #formularz p {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 5px 0 0px 0;
+        font-weight: bold;
+    }
+
+    #formularz h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0 0 50px 0;
+    }
+
+    #formularz button {
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 30px;
+        background-color: red;
+        padding: 12px 60px;
+        color: white;
+        display:block;
+        border-radius: 4px;
+        margin-left: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+        #formularz button:hover {
+            background-color: #ffb400;
+        }
+
+
+
+
+

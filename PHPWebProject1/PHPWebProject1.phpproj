@@ -1,0 +1,38 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPWebProject1</Name>
+    <ProjectGuid>ee54ce8f-7179-4c5f-aa81-21bf15ffe706</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PHPWebProject1</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="check.php" />
+    <Compile Include="search.php" />
+    <Compile Include="wyloguj.php" />
+    <Compile Include="rejestracja.php" />
+    <Compile Include="dodajprzejazd.php" />
+    <Compile Include="zaloguj.php" />
+    <Compile Include="profil.php" />
+    <Compile Include="index.php" />
+    <Compile Include="register.php" />
+    <Compile Include="logowanie.php" />
+    <Compile Include="connection.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StyleSheet5.css" />
+    <Content Include="StyleSheet4.css" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="StyleSheet3.css" />
+  </ItemGroup>
+</Project>
